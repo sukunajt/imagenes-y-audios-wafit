@@ -3,9 +3,9 @@
 ## Repositorio: https://github.com/sukunajt/imagenes-y-audios-wafit
 
 ### Imagen de Bienvenida
-- **Archivo**: `IMG_5473.PNG`
-- **URL Normal**: `https://github.com/sukunajt/imagenes-y-audios-wafit/blob/main/images/bienvenida/IMG_5473.PNG`
-- **URL Raw**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/IMG_5473.PNG`
+- **Archivo**: `380F95C4-EA97-45DB-B88D-AF280D77D69A.png`
+- **URL Normal**: `https://github.com/sukunajt/imagenes-y-audios-wafit/blob/main/images/bienvenida/380F95C4-EA97-45DB-B88D-AF280D77D69A.png`
+- **URL Raw**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/380F95C4-EA97-45DB-B88D-AF280D77D69A.png`
 
 ## Cómo usar en n8n
 
@@ -13,7 +13,7 @@
 ```json
 {
   "media": {
-    "link": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/IMG_5473.PNG"
+    "link": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/380F95C4-EA97-45DB-B88D-AF280D77D69A.png"
   }
 }
 ```
@@ -22,7 +22,7 @@
 ```json
 {
   "method": "GET",
-  "url": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/IMG_5473.PNG"
+  "url": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/380F95C4-EA97-45DB-B88D-AF280D77D69A.png"
 }
 ```
 
@@ -32,7 +32,7 @@
   "attachments": [
     {
       "filename": "bienvenida.png",
-      "content": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/IMG_5473.PNG"
+      "content": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/380F95C4-EA97-45DB-B88D-AF280D77D69A.png"
     }
   ]
 }
@@ -41,7 +41,7 @@
 ### 4. En nodos de Telegram
 ```json
 {
-  "photo": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/IMG_5473.PNG"
+  "photo": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/380F95C4-EA97-45DB-B88D-AF280D77D69A.png"
 }
 ```
 
