@@ -8,9 +8,14 @@
 - **URL Raw**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/Sanaturelacionconlacomida.png`
 
 ### Audio de Bienvenida
-- **Archivo**: `Audio wafit (mp3cut.net) 2.mp3`
-- **URL Normal**: `https://github.com/sukunajt/imagenes-y-audios-wafit/blob/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit%20(mp3cut.net)%202.mp3`
-- **URL Raw**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit%20(mp3cut.net)%202.mp3`
+- **Archivo**: `Audio wafit.mp3`
+- **URL Normal**: `https://github.com/sukunajt/imagenes-y-audios-wafit/blob/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit.mp3`
+- **URL Raw**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit.mp3`
+
+### Imagen de Confirmación de Pagos
+- **Archivo**: `Wafit grupo.png`
+- **URL Normal**: `https://github.com/sukunajt/imagenes-y-audios-wafit/blob/main/images/bienvenida/imagen%20confirmacion%20pagos/Wafit%20grupo.png`
+- **URL Raw**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/imagen%20confirmacion%20pagos/Wafit%20grupo.png`
 
 ## Cómo usar en n8n
 
@@ -55,7 +60,7 @@
 {
   "token": "8czn7gj44nu06qcr",
   "to": "={{ $node['Webhook'].json.body.data.from }}",
-  "audio": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit%20(mp3cut.net)%202.mp3"
+  "audio": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit.mp3"
 }
 ```
 
@@ -65,7 +70,16 @@
   "token": "8czn7gj44nu06qcr",
   "to": "={{ $node['Webhook'].json.body.data.from }}",
   "image": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/Sanaturelacionconlacomida.png",
-  "audio": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit%20(mp3cut.net)%202.mp3"
+  "audio": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit.mp3"
+}
+```
+
+### 7. Imagen de Confirmación de Pagos (WhatsApp)
+```json
+{
+  "token": "8czn7gj44nu06qcr",
+  "to": "={{ $node['Webhook'].json.body.data.from }}",
+  "image": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/imagen%20confirmacion%20pagos/Wafit%20grupo.png"
 }
 ```
 
