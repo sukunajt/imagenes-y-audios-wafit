@@ -17,6 +17,11 @@
 - **URL Normal**: `https://github.com/sukunajt/imagenes-y-audios-wafit/blob/main/images/bienvenida/imagen%20confirmacion%20pagos/Wafit%20grupo.png`
 - **URL Raw**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/imagen%20confirmacion%20pagos/Wafit%20grupo.png`
 
+### Imágenes de Recetas
+- **Desayuno**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/imagen%20de%20recetas/desayuno.png`
+- **Almuerzo**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/imagen%20de%20recetas/almuerzo.png`
+- **Cena**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/imagen%20de%20recetas/cena.png`
+
 ## Cómo usar en n8n
 
 ### 1. En nodos de WhatsApp
@@ -80,6 +85,33 @@
   "token": "8czn7gj44nu06qcr",
   "to": "={{ $node['Webhook'].json.body.data.from }}",
   "image": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/imagen%20confirmacion%20pagos/Wafit%20grupo.png"
+}
+```
+
+### 8. Imagen de Receta - Desayuno (WhatsApp)
+```json
+{
+  "token": "8czn7gj44nu06qcr",
+  "to": "={{ $node['Webhook'].json.body.data.from }}",
+  "image": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/imagen%20de%20recetas/desayuno.png"
+}
+```
+
+### 9. Imagen de Receta - Almuerzo (WhatsApp)
+```json
+{
+  "token": "8czn7gj44nu06qcr",
+  "to": "={{ $node['Webhook'].json.body.data.from }}",
+  "image": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/imagen%20de%20recetas/almuerzo.png"
+}
+```
+
+### 10. Imagen de Receta - Cena (WhatsApp)
+```json
+{
+  "token": "8czn7gj44nu06qcr",
+  "to": "={{ $node['Webhook'].json.body.data.from }}",
+  "image": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/imagen%20de%20recetas/cena.png"
 }
 ```
 
