@@ -8,9 +8,9 @@
 - **URL Raw**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/Sanaturelacionconlacomida.png`
 
 ### Audio de Bienvenida
-- **Archivo**: `Audio wafit.mp3`
-- **URL Normal**: `https://github.com/sukunajt/imagenes-y-audios-wafit/blob/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit.mp3`
-- **URL Raw**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit.mp3`
+- **Archivo**: `Nuevo audio para wafit, Valeria. .mp3`
+- **URL Normal**: `https://github.com/sukunajt/imagenes-y-audios-wafit/blob/main/images/bienvenida/audios/audio%20bienvenida/Nuevo%20audio%20para%20wafit%2C%20Valeria.%20.mp3`
+- **URL Raw**: `https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Nuevo%20audio%20para%20wafit%2C%20Valeria.%20.mp3`
 
 ### Imagen de Confirmación de Pagos
 - **Archivo**: `Wafit grupo.png`
@@ -65,7 +65,7 @@
 {
   "token": "8czn7gj44nu06qcr",
   "to": "={{ $node['Webhook'].json.body.data.from }}",
-  "audio": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit.mp3"
+  "audio": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Nuevo%20audio%20para%20wafit%2C%20Valeria.%20.mp3"
 }
 ```
 
@@ -75,7 +75,7 @@
   "token": "8czn7gj44nu06qcr",
   "to": "={{ $node['Webhook'].json.body.data.from }}",
   "image": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/Sanaturelacionconlacomida.png",
-  "audio": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Audio%20wafit.mp3"
+  "audio": "https://raw.githubusercontent.com/sukunajt/imagenes-y-audios-wafit/main/images/bienvenida/audios/audio%20bienvenida/Nuevo%20audio%20para%20wafit%2C%20Valeria.%20.mp3"
 }
 ```
 
